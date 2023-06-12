@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    /* Navbar Start */
+
+.navbar{
+    z-index: 1;
+    height: 54px;
+    border: 1px solid #ddd;
+}
+
+.navbarList{
+    justify-content: space-between;
+    display: flex;
+    column-gap: 400px; /*? bu şey navın içindeki itemlerin mesafesini ayarladı  */
+}
+
+.navbarWrapper{
+    align-items: center;
+}
+
+.icons{
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    float: right;
+}
+
+.logo{
+   margin-left: 192px;
+   margin-top: 5px;
+   font-family: fantasy;
+   font-size: larger;
+}
+
+.search{
+    margin-left: 5px;
+}
+
+.icon-item{
+    margin: 8px 8px;
+}
+
+.icon-item:hover{
+    cursor: pointer;
+}
+
+.profilePicture{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+/* Navbar End */
+
+/* Hikaye start*/
+
+.hikayeler{
+    background-color:white;
+    border: solid 1px rgb(177, 176, 176);
+}
+
+
+.HikayePP ul li img{
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.HikayePP{
+    display: flex;
+    list-style-type: none;
+   
+}
+
+.HikayePP img{
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    border: solid 2px rgb(247, 59, 59);
+}
+
+.listHikaye{
+    justify-content: space-between;
+    margin-right: 10px;   
+}
+
+.listHikaye ul li{
+    padding: 4px 4px;
+    margin-top: 15px;
+    margin-left: 12px;
+    align-items: center;
+}
+
+.listHikaye ul li p{
+    font-size: 10px;
+}
+
+/* Hikaye finish*/
+
+
+
+.OneriIMG{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.takipEt{
+    display: flex;
+    margin-top: 5px;
+}
+
+.takipEt p{
+    margin-right: 10px;
+}
+
+.MaviP{
+    color: rgb(41, 41, 230);
+    margin-left: 40px;
+}
+
+.Oneriler{
+    display: flex;
+}
+
+.Oneriler ul li img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.Oneriler ul li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+/* Öneriler finish */
+
+/* Gönderiler start */
+
+.Paylasan{
+    display: flex;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.Paylasan Strong {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.Paylasan i {
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.postIMG{
+    width: 540px;
+    height: 320px;
+    object-fit: cover;
+    image-rendering: optimizeQuality;
+}
+
+.posticons{
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;  
+    
+}
+
+.kaydetme{
+    margin-left: 400px;
+}
+
+.kalp{
+    margin-right: 10px;
+}
+
+.yorum{
+    margin-right: 10px;
+}
+
+.gonder{
+    margin-right: 10px;
+}
+
+.begeni img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.yorumlar{
+    display: flex;
+}
+
+.yorumlar p{
+    margin-left: 8px;
+}
+
+.yorumlar2 {
+    display: flex;
+}
+
+.yorumlar2 p{
+    margin-left: 8px;
+}
