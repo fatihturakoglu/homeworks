@@ -1,0 +1,291 @@
+/* Navbar start */
+.navbar{
+    border: solid 1px rgb(185, 184, 184);
+    /* position: fixed; /* Navbar'ı yukarıda sabitle */ 
+}
+
+.Logo{
+    margin-left: 150px;
+}
+
+.nav-item-last{
+    margin-right: 100px;
+}
+
+.navbar-nav li a {
+    margin: 0px 0px;
+    padding: 0px 0px;
+
+}
+
+.navbar-nav li i {
+   margin-left: 30px;
+   margin-top: 5px;
+   justify-content: center;
+}
+
+.Agim{
+    margin-left: 10px;
+}
+
+.nav-item i{
+    margin-right: 20px;
+}
+
+.navbar-nav li {
+    padding: 6px 6px;
+}
+
+.Resim-nav{
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+    margin-left: 8px;
+}
+
+.Resim-nav:hover{   
+    cursor: pointer;
+}
+
+.navbar-nav li i:hover {
+    cursor: pointer;
+    color: gray;
+    transition: 0.8s;
+ }
+
+
+ @media screen and (max-width: 992px) { /* Ekran 992px küçük oldugunda yani small ekrandaki ayarlar  */
+    .navbar-nav li i {
+        display: none;
+    }
+
+    .navbar-nav li img{
+        display: none;
+    }
+} 
+
+    /* Navbar END */
+
+    /*  Aside start 1.Satır cssleri */
+
+.ilksatır{
+    border: solid 2px white;
+    text-align: center;
+   
+}
+
+.arkaplan1{
+    background-image: url(img/BulanıkResim.webp);
+    height: 60px;
+    width: 306px;
+   
+}
+
+.gigaCHAD{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+    border: solid 2px white;
+    margin-top: 15px;
+}
+
+.İSİM{
+    text-align: center;
+    font-size: 30px;
+}
+
+.YAZI1{
+    display: inline-flex;
+    color: grey;
+    
+}
+
+.YAZI2{
+    color: gray;
+}
+
+.Maviyazı{
+    color: rgb(52, 52, 243);
+    display: inline-flex;
+    margin-left: 30px;
+}
+
+.İCON:hover{
+    color: gray;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+    /*  Aside End 1.Satır cssleri */
+
+     /*  Aside Start 2.Satır cssleri */
+
+.Kablosuzbeyin{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    display: inline-flex; 
+    transform: translateY(-10px); /* Yukarı doğru hareket ettirme */
+}
+
+.Sayfabildirimleri{
+    display: inline-flex;
+    margin-left: 44px;
+    transform: translateY(-27px); /* Yukarı doğru hareket ettirme */
+    font-size: 14px;
+    color: gray;
+
+}
+
+.beyin{
+    margin-left: 30px
+}
+
+.on{
+    color: rgb(52, 52, 243);
+    display: inline-flex;
+    transform: translateY(-26px); /* Yukarı doğru hareket ettirme */
+    margin-left: 30px;
+}
+
+.sayfalar{
+    padding: 15px 15px;
+    color: rgb(54, 53, 53);
+}
+     /*  Aside END 2.Satır cssleri */
+
+
+
+/*  Aside END 3.Satır cssleri */
+
+
+/*  Main Page Başlangıcı  */
+
+.input-with-icon {
+    position: relative;
+  }
+  
+  .input-with-icon i {
+    position: absolute;
+    left: 10px; /* İkonun metin alanından uzaklığı */
+    top: 50%; /* İkonun dikey hizalaması */
+    transform: translateY(-50%); /* İkonun dikey ortalanması */
+    color: #888; /* İkon rengi */
+  }
+
+.gonderipaylas{
+    max-width: 400px; /* İstediğiniz genişliği burada ayarlayabilirsiniz */
+    margin: 0 auto; /* Formu yatayda ortalamak için */
+    padding: 0px 150px;
+    border-radius: 40%;
+    
+}
+
+/* ORTA SATİR 1.SUTUN START */
+.paylas {
+    display: flex;
+    align-items: center;
+    
+}
+
+.paylas i, .paylas p {
+    margin: 0;
+    padding: 0;
+}
+
+.paylas i {
+    margin-right: 12px; /* İkonlar arasında boşluk bırakmak için */
+    font-size: 18px; /* İkonların boyutunu istediğiniz gibi ayarlayabilirsiniz */
+}
+
+.paylas p {
+    font-size: 14px; /* Yazıların boyutunu istediğiniz gibi ayarlayabilirsiniz */
+    margin-right: 55px;
+}
+
+.İKON-İMG{
+    margin-left: 30px;
+    color: rgb(10, 179, 179);
+}
+
+.paylas:hover {
+    font-size: 16px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.paylas i:hover , .paylas p:hover{
+    font-size: 20px;
+    
+    cursor: pointer;
+}
+/* ORTA SATİR 1.SUTUN END */
+
+/* POST KISMI START */
+
+.KurbagaPP{
+    border-radius: 50%; 
+    transform: translate(-50%, -50%); 
+    position: absolute; 
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    display: inline-flex;
+    border: solid 2px white;
+}
+
+.billgates{
+    width: 526px;
+    height: 280px;
+    transform: translateY(-60px);
+    border: solid 2px white;
+    position: absolute; 
+}
+
+.begenyorumyap{
+    display: flex;
+    align-items: center;
+
+}
+
+.begenyorumyap i{
+    margin-top: 230px;
+    margin-left: 20px;
+    transition: transform 0.3s ease;
+}
+
+.begenyorumyap i:hover{
+    margin-top: 230px;
+    margin-left: 20px;
+    transition: transform 0.3s ease;
+    transform: scale(1.4); /* Büyüklük değişimi (1.2 kat) */
+    cursor: pointer;
+    color: blue;
+}
+
+.begenyorumyap p{
+    margin-top: 245px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* ORTA KISIM END */
+
+/* SAĞ TARAF START */
+
+.TakipetİMG{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.sonkisim a{
+    margin-left: 10px;
+    color: gray;
+    font-size: 14px;
+}
+
+
