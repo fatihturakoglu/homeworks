@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,100&family=Oswald:wght@200;300&family=Poppins:wght@100&family=Roboto:wght@100&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,100&family=Orbitron&family=Oswald:wght@200;300&family=Poppins:wght@100&family=Roboto:wght@100&family=Rubik+Moonrocks&display=swap');
+body{
+    background-color: #424242;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+
+.ortala {
+    width: 100%; 
+    position: relative;
+    top: 60px;
+    
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: peru;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* Saat kısmı START */
+
+#clock {
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+#clock h2 {
+    font-size: 35px;
+}
+
+.clock-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: center;
+    align-content: center;
+}
+
+.clock-items {
+    width: 32%;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    margin-right: 3%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 60px;
+}
+
+/* saat kısmı END */
